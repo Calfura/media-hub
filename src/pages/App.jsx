@@ -1,21 +1,14 @@
 
 import './App.css';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Header >
-        <Nav >
-          
-        </Nav>
-      </Header>
-      <Footer >
-
-      </Footer>
-      
-    </div>
+    <Routes>
+      <Route path="/" element={<Template />} >
+        <Route index element={<HomePage />} />
+      </Route>
+    </Routes>
   );
 }
 
