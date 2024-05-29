@@ -1,4 +1,5 @@
 import "../styles/Header.css";
+import Dropdown from "./Dropdown";
 
 export default function(){
     
@@ -13,6 +14,9 @@ export default function(){
             {/* MockLogo. Will change to exmaple image */}
             <div id="mockLogo">
                 MockLogo
+            </div>
+            <div>
+                <Dropdown />
             </div>
         </header>
     )
