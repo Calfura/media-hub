@@ -1,9 +1,9 @@
-
+import "../styles/HomePage.css";
 
 export default function HomePage(){
 
-    return(<>
-        <h1>Test writing</h1>
-        <p>Testing paragraph</p>
-    </>)
+    return <>
+        <p>Test text</p>
+        <img className="logo" src="../resources/media_hub_example.jpg" alt="Example Logo" />
+    </>
 };
